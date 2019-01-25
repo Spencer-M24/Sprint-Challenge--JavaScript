@@ -37,7 +37,7 @@ CuboidMaker.prototype.surfaceArea=function() {
   const value =2 * (length * width + length * height + width * height)
   return (` The surfaceArea of the cuboid is ${value}`)
 }
-
+ 
 
 /* == Step 4: Create a new object that uses CuboidMaker ==
   Create a cuboid object that uses the new keyword to use our CuboidMaker constructor
