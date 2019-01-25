@@ -34,7 +34,7 @@ CuboidMaker.prototype.volume= function(){
 
 
 CuboidMaker.prototype.surfaceArea=function() {
-  const value =2 * (length * width + length * height + width * height)
+  const value = 2 * (length * width + length * height + width * height)
   return (` The surfaceArea of the cuboid is ${value}`)
 }
  
