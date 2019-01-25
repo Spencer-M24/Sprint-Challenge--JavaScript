@@ -44,7 +44,6 @@ function greeting(firstName,lastName) {
 /*
 Its because it can access variable from outside of the scope of the function. So in summary  Its within the function scope of (myFunction)
 
- 
 
 
 */
