@@ -6,13 +6,11 @@
   Create a constructor function named CuboidMaker that accepts properties for length, width, and height
 */
 
-function CuboidMaker (attributes) {
+function CuboidMaker(attributes) {
     this.length = attributes.length;
     this.width = attributes.width;
     this.height = attributes.height;
-  }
-
-
+}
 
 /* == Step 2: Volume Method ==
   Create a method using CuboidMaker's prototype that returns the volume of a given cuboid's length, width, and height
@@ -20,11 +18,10 @@ function CuboidMaker (attributes) {
   Formula for cuboid volume: length * width * height
 */
 
-CuboidMaker.prototype.volume= function(){
-  const value = this.length*this.width*this.height;
-  return(` The volume of the cuboid is ${value} `)
-}
-
+CuboidMaker.prototype.volume = function() {
+    const value = this.length * this.width * this.height;
+    return ` The volume of the cuboid is ${value} `;
+};
 
 /* == Step 3: Surface Area Method ==
   Create another method using CuboidMaker's prototype that returns the surface area of a given cuboid's length, width, and height. 
@@ -32,12 +29,10 @@ CuboidMaker.prototype.volume= function(){
   Formula for cuboid surface area of a cube: 2 * (length * width + length * height + width * height)
 */
 
-
-CuboidMaker.prototype.surfaceArea=function() {
-  const value = 2 * (length * width + length * height + width * height)
-  return (` The surfaceArea of the cuboid is ${value}`)
-}
- 
+CuboidMaker.prototype.surfaceArea = function() {
+    const value = 2 * (length * width + length * height + width * height);
+    return ` The surfaceArea of the cuboid is ${value}`;
+};
 
 /* == Step 4: Create a new object that uses CuboidMaker ==
   Create a cuboid object that uses the new keyword to use our CuboidMaker constructor
@@ -45,14 +40,11 @@ CuboidMaker.prototype.surfaceArea=function() {
 */
 
 const cuboid = new CuboidMaker({
-  length: 4,
-  width: 5,
-  height: 5
-})
-
+    length: 4,
+    width: 5,
+    height: 5
+});
 
 // Test your volume and surfaceArea methods by uncommenting the logs below:
- console.log(cuboid.volume()); // 100
- console.log(cuboid.surfaceArea()); // 130
-
-
+console.log(cuboid.volume()); // 100
+console.log(cuboid.surfaceArea()); // 130
