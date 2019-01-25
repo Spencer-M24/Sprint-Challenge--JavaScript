@@ -30,14 +30,22 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+ The foreach along with the ().map loops over the data.
+ But the foreach  activates the function once the the data item maps creation of the arrays produce results when there is a function there.
+
 2. What is the difference between a function and a method?
-
+A method is part of a object or the class. for example using class parent then you do method next.
 3. What is closure?
-
+The closure is inner function that has access to the outer function scope. Layers
 4. Describe the four rules of the 'this' keyword.
 
+Window  this works with the window and global scope browser
+implicist binding  will have access to the object left of the period exmaple when using this.
+newbinding  is when you use a constructior function that refers to the object creation by function
+explicit binding Thisis when you use call and apply which points to the object
 5. Why do we need super() in an extended class?
 
+The reason we need super is extended class to le tthe code be aware that the parent needs to know about the child attrubites when returning.
 ## Project Set up
 
 Follow these steps to set up and work on your project:
