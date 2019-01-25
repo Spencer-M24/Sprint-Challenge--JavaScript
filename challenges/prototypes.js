@@ -22,7 +22,7 @@ function CuboidMaker (attributes) {
 
 CuboidMaker.prototype.volume= function(){
   const value = this.length*this.width*this.height;
-  return(` The volume of the cuboid is $[value] `)
+  return(` The volume of the cuboid is ${value} `)
 }
 
 
