@@ -47,9 +47,9 @@ class CubeMaker extends CuboidMaker {
 }
 
     const cube = new CubeMaker ({
-        length: 9,
-        width: 2,
-        height: 2,
+        length: 123,
+        width: 13,
+        height: 13,
     })
 
     console.log(cube.volume());
